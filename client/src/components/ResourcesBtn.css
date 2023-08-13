@@ -1,0 +1,15 @@
+.resources-container {
+  margin-top: 4rem;
+}
+.box-bttn {
+  margin: 2rem auto;
+  width: 15rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.btn-resource {
+  background-color: #f5890e;
+  border: none;
+  font-size: 1rem;
+}
