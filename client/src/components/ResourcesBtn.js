@@ -1,27 +1,25 @@
 import React from "react";
 import "./ResourcesBtn.css";
+import "./Button.css";
 import { Link } from "react-router-dom";
+import Button from "./Button";
 
-const ResourcesBtn = () => {
+const ResourcesBtn = ({ text: string }) => {
   return (
     <div className="resources-container">
-      <h1>Our resources</h1>
+      <h1 className="title-question">Our resources</h1>
       <div className="box-bttn">
         <Link to="/chat">
-          <button className="btn-resource">Chat with a Volunteer</button>
+          <Button text="Chat with a Volunteer" />
         </Link>
         <Link to="/">
-          <button className="btn-resource">Breathing Techniques</button>
+          <Button text="Breathing Techniques" />
         </Link>
         <Link to="/">
-          <button type="button" className="btn-resource">
-            Stretches exercises
-          </button>
+          <Button text="Stretches exercises" />
         </Link>
         <Link to="/links">
-          <button type="button" className="btn-resource">
-            Links that can interest you
-          </button>
+          <Button text="Interest Links" />
         </Link>
       </div>
     </div>

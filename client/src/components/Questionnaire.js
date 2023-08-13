@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
 import "./Questionnarie.css";
+import Button from "./Button";
 
-const Questionnaire = () => {
+const Questionnaire = ({ text: string }) => {
   return (
     <div className="box-container">
       <div className="box-question">
@@ -27,7 +28,7 @@ const Questionnaire = () => {
                 min="1"
                 max="5"
                 step="1"
-              // onChange={(e) => handleAnswer(0, parseInt(e.target.value))}
+                // onChange={(e) => handleAnswer(0, parseInt(e.target.value))}
               />
               <div className="text-option">
                 <p>5</p>
@@ -51,7 +52,7 @@ const Questionnaire = () => {
                 min="1"
                 max="5"
                 step="1"
-              // onChange={(e) => handleAnswer(0, parseInt(e.target.value))}
+                // onChange={(e) => handleAnswer(0, parseInt(e.target.value))}
               />
               <div className="text-option">
                 <p>5</p>
@@ -75,7 +76,7 @@ const Questionnaire = () => {
                 min="1"
                 max="5"
                 step="1"
-              // onChange={(e) => handleAnswer(0, parseInt(e.target.value))}
+                // onChange={(e) => handleAnswer(0, parseInt(e.target.value))}
               />
               <div className="text-option">
                 <p>5</p>
@@ -99,7 +100,7 @@ const Questionnaire = () => {
                 min="1"
                 max="5"
                 step="1"
-              // onChange={(e) => handleAnswer(0, parseInt(e.target.value))}
+                // onChange={(e) => handleAnswer(0, parseInt(e.target.value))}
               />
               <div className="text-option">
                 <p>5</p>
@@ -120,7 +121,7 @@ const Questionnaire = () => {
                 min="1"
                 max="5"
                 step="1"
-              // onChange={(e) => handleAnswer(0, parseInt(e.target.value))}
+                // onChange={(e) => handleAnswer(0, parseInt(e.target.value))}
               />
               <div className="text-option">
                 <p>5</p>
@@ -141,7 +142,7 @@ const Questionnaire = () => {
                 min="1"
                 max="5"
                 step="1"
-              // onChange={(e) => handleAnswer(0, parseInt(e.target.value))}
+                // onChange={(e) => handleAnswer(0, parseInt(e.target.value))}
               />
               <div className="text-option">
                 <p>5</p>
@@ -153,13 +154,14 @@ const Questionnaire = () => {
           {/* Repeat for other questions */}
           {/* ... */}
           <Link to="/resources">
-            <button
+            {/* <button
               type="button"
               className="btn-submit"
             // onClick={handleSubmit}
             >
               Submit
-            </button>
+            </button> */}
+            <Button text="Submit" />
           </Link>
         </form>
       </div>

@@ -15,11 +15,11 @@ const links = [
   },
   { title: "The Ice House", url: "https://www.theicehouse.co.nz" },
 ];
-const LinksPage = () => {
+const LinksPage = ({ text: string }) => {
   return (
     <div className="resources-container">
       <div className="box-links">
-        <h1>Links to resources and other sites</h1>
+        <h1 className="title-question">Links to resources and other sites</h1>
 
         <ul className="list-links">
           {links.map((link, index) => (

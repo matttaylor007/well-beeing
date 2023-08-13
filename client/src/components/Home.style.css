@@ -1,63 +1,58 @@
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    .home__header__container {
-      margin: 40px;
-      color: #3C3A2F;
-      text-align: center;
-    
-    }
-    
-    .home__header {
-      color: #3C3A2F;
-      font-size: 3em;
-    }
-    
-    .home__label {
-      font-size: 32px;
-      color: #F5890E;
-    }
-    
-    .home__cta {
-      background-color: #FFDC85;
-      border-radius: 50px;
-      color: #3C3A2F;
-      font-weight: 500;
-    }
-    
-    .prj__name {
-      padding: 60px;
-      font-weight: 200;
-    }
-}
-
+/* @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) { */
 .home__header__container {
   margin: 40px;
-  color: #3C3A2F;
-  text-align: center;
 
+  color: #3c3a2f;
+  text-align: center;
 }
 
 .home__header {
-  color: #3C3A2F;
+  margin-top: 1rem;
+  color: #3c3a2f;
   font-size: 3em;
 }
 
 .home__label {
   font-size: 32px;
-  color: #F5890E;
+  color: #f5890e;
 }
 
 .home__cta {
-  background-color: #FFDC85;
+  background-color: #ffdc85;
   border-radius: 50px;
-  color: #3C3A2F;
+  color: #3c3a2f;
   font-weight: 500;
 }
 
 .prj__name {
-  padding: 60px;
+  padding: 0 1rem;
   font-weight: 200;
 }
 
+/* .home__header__container {
+  margin: 40px;
+  color: #3c3a2f;
+  text-align: center;
+}
+
+.home__header {
+  color: #3c3a2f;
+  font-size: 3em;
+}
+
+.home__label {
+  font-size: 32px;
+  color: #f5890e;
+}
+
+/* .home__cta {
+  background-color: #FFDC85;
+  border-radius: 50px;
+  color: #3C3A2F;
+  font-weight: 500;
+} */
+
+/* .prj__name {
+  padding: 60px;
+  font-weight: 200;
+} */

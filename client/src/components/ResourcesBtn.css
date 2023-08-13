@@ -1,11 +1,7 @@
-.resources-container {
-  margin-top: 4rem;
-}
 .box-bttn {
   margin: 2rem auto;
-  width: 15rem;
+  width: 20rem;
   display: grid;
-  gap: 1rem;
 }
 
 .btn-resource {

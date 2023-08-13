@@ -12,13 +12,15 @@
 }
 
 .title-question {
-  margin-top: 2rem;
+  margin-top: 6rem;
   font-size: 2rem;
+  font-weight: 400;
+  color: #f5890e;
 }
 
 .explain-text {
   margin-top: 0.5rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .values-text {
@@ -28,16 +30,16 @@
 }
 
 .questions-form {
-  margin-top: 2rem;
+  margin-top: 4rem;
   display: grid;
   grid-template-columns: 1fr;
-  gap: 1rem;
+  gap: 4rem;
 }
 
 .question {
   display: grid;
   grid-template-columns: 1fr;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 .form-range {
@@ -61,7 +63,7 @@ input[type="range"]::-moz-range-track {
 }
 
 .text-option {
-  font-size: 0.5rem;
+  font-size: 0.8rem;
   color: gray;
 }
 .btn-submit {

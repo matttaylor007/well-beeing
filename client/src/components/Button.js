@@ -1,9 +1,11 @@
-const Button = () => {
+import "./Button.css";
+
+const Button = ({ text }) => {
   return (
-    <div>
-      <button className="home__cta">SIGN IN</button>
-    </div>
-  )
-}
+    <>
+      <button className="home__cta">{text}</button>
+    </>
+  );
+};
 
 export default Button;
