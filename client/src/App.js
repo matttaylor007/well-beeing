@@ -1,3 +1,4 @@
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
 import ChatPage from "./components/ChatPage";
@@ -5,6 +6,7 @@ import socketIO from "socket.io-client";
 import Questionnaire from "./components/Questionnaire";
 
 const socket = socketIO.connect("http://localhost:4000");
+
 function App() {
   return (
     <BrowserRouter>
@@ -19,5 +21,5 @@ function App() {
     </BrowserRouter>
   );
 }
-
 export default App;
+
