@@ -1,0 +1,74 @@
+.box-container {
+  max-width: 30rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.box-question {
+  width: 20rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.title-question {
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+.explain-text {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.values-text {
+  margin-top: 0.1rem;
+  font-size: 0.8rem;
+  color: grey;
+}
+
+.questions-form {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.question {
+  display: grid;
+  grid-template-columns: 1fr;
+  font-size: 0.8rem;
+}
+
+.form-range {
+  margin: 0.5rem;
+}
+input[type="range"] {
+  accent-color: #f5890e;
+}
+
+input[type="range"]::-moz-range-progress {
+  background-color: #f5890e;
+}
+input[type="range"]::-moz-range-track {
+  background-color: #fff;
+}
+
+.input-box {
+  margin: 1rem auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.text-option {
+  font-size: 0.5rem;
+  color: gray;
+}
+.btn-submit {
+  background-color: #ffdc85;
+  color: grey;
+  border-radius: 1.5rem;
+  padding: 0.5rem;
+  border: none;
+  margin-bottom: 5rem;
+}

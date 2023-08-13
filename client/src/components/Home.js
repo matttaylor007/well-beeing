@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { ReactComponent as MHLogo } from '../assets/MHLogo.svg'
-
 import './Home.style.css';
 
 const Home = ({ socket }) => {
@@ -13,7 +12,7 @@ const Home = ({ socket }) => {
     localStorage.setItem('userName', userName)
     //sends the username and socket ID to the Node.js server
     socket.emit('newUser', { userName, socketID: socket.id })
-    navigate('/questionaire')
+    navigate('/questionnaire')
   }
 
   return (
@@ -38,10 +37,7 @@ const Home = ({ socket }) => {
         /> */}
         <button className="home__cta">Get started</button>
       </form>
-
     </div>
-
-
   )
 }
 
