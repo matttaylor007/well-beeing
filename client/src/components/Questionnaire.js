@@ -28,7 +28,6 @@ const Questionnaire = ({ text: string }) => {
                 min="1"
                 max="5"
                 step="1"
-                // onChange={(e) => handleAnswer(0, parseInt(e.target.value))}
               />
               <div className="text-option">
                 <p>5</p>
@@ -52,7 +51,6 @@ const Questionnaire = ({ text: string }) => {
                 min="1"
                 max="5"
                 step="1"
-                // onChange={(e) => handleAnswer(0, parseInt(e.target.value))}
               />
               <div className="text-option">
                 <p>5</p>
@@ -76,7 +74,6 @@ const Questionnaire = ({ text: string }) => {
                 min="1"
                 max="5"
                 step="1"
-                // onChange={(e) => handleAnswer(0, parseInt(e.target.value))}
               />
               <div className="text-option">
                 <p>5</p>
@@ -100,7 +97,6 @@ const Questionnaire = ({ text: string }) => {
                 min="1"
                 max="5"
                 step="1"
-                // onChange={(e) => handleAnswer(0, parseInt(e.target.value))}
               />
               <div className="text-option">
                 <p>5</p>
@@ -142,7 +138,6 @@ const Questionnaire = ({ text: string }) => {
                 min="1"
                 max="5"
                 step="1"
-                // onChange={(e) => handleAnswer(0, parseInt(e.target.value))}
               />
               <div className="text-option">
                 <p>5</p>
