@@ -1,7 +1,42 @@
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .home__header__container {
+      margin: 40px;
+      color: #3C3A2F;
+      text-align: center;
+    
+    }
+    
+    .home__header {
+      color: #3C3A2F;
+      font-size: 3em;
+    }
+    
+    .home__label {
+      font-size: 32px;
+      color: #F5890E;
+    }
+    
+    .home__cta {
+      background-color: #FFDC85;
+      border-radius: 50px;
+      color: #3C3A2F;
+      font-weight: 500;
+    }
+    
+    .prj__name {
+      padding: 60px;
+      font-weight: 200;
+    }
+}
+
 .home__header__container {
   margin: 40px;
   color: #3C3A2F;
   text-align: center;
+
 }
 
 .home__header {
@@ -23,6 +58,6 @@
 
 .prj__name {
   padding: 60px;
-  font-weight: 300;
+  font-weight: 200;
 }
 

@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { ReactComponent as MHLogo } from '../assets/MHLogo.svg'
 import './Home.style.css';
+import '../index.css'
 
 const Home = ({ socket }) => {
   const navigate = useNavigate()
@@ -19,7 +20,7 @@ const Home = ({ socket }) => {
     <div>
       <form className="home__container" onSubmit={handleSubmit}>
         <div className='home__header__container'>
-          <p className="home__header">Welcom to</p>
+          <p className="home__header">Welcome to</p>
           <label className="home__label">WellBeeing</label>
           <MHLogo />
           <p className='prj__name'>A platform connecting communities for people facing mental health challenges</p>
