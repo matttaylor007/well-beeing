@@ -1,3 +1,18 @@
+###############################################################################################################
+This app is still under development
+
+Thia App has allways been aa dream of mine and during the Summer Of Tech Create camp 2023 
+Working with a team of very talented people we got it from just a dream to something that I can 
+develop and hopefully one day release into the wild. 
+
+I had to fork this over from one of my Team Members as we used her GitHub to create the First Repo. 
+
+###############################################################################################################
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
